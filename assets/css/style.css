@@ -1,0 +1,85 @@
+body {
+    background: url('../img/background.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #B5E6FF, #73D0FF);
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+
+.container {
+    padding-top: 1rem;
+}
+
+#icon img {
+    height: 50px;
+    margin: auto 15px;
+}
+
+.navbar-toggler img {
+    height: 50px;
+    border-radius: .25rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-nav a {
+    margin: auto 15px;
+}
+
+#nav-main {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item:hover {
+    border-bottom: 3px solid #B5E6FF;
+}
+
+#brand-name {
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#avatar img {
+    width: 30vw;
+}
+
+#name {
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

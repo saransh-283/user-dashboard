@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    #icon {
+        display: none;
+    }
+
+    #nav-main {
+        justify-content: space-between !important;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    #avatar img {
+        width: 50vw;
+    }
+
+    #top {
+        flex-direction: column;
+    }
+
+    #name {
+        width: auto;
+        margin-top: 1rem;
+    }
+}
