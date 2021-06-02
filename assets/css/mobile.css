@@ -23,4 +23,11 @@
         width: auto;
         margin-top: 1rem;
     }
+    
+    #tabs {
+    	grid-template-columns: repeat(2, 1fr);
+    	grid-template-rows: repeat(2, 1fr)
+    }
+    
+    
 }
