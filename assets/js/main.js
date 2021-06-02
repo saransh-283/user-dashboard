@@ -1,7 +1,18 @@
 const navbar = document.getElementById('navbar').getBoundingClientRect()
 document.body.style.paddingTop = `${navbar.height}px`
 
-var tabs=Array.from(document.getElementsByClassName('tab'))
+const navTabs=Array.from(document.getElementsByClassName('nav-item'))
+
+function navClick(e) {
+	var elem = e.target
+
+	document.getElementsByClassName('nav-active')[0].classList.remove('nav-active')
+	elem.classList.add('nav-active')
+}
+
+navTabs.map(elem=>elem.addEventListener('click',navClick))
+
+const tabs=Array.from(document.getElementsByClassName('tab'))
 
 function tabClick(e){
 	var elem=e.target

@@ -58,6 +58,10 @@ body {
 	border-bottom: 3px solid #B5E6FF;
 }
 
+.nav-active {
+	border-bottom: 3px solid #B5E6FF;
+}
+
 #brand-name {
 	font-family: 'Catamaran', sans-serif;
 	text-transform: uppercase;
